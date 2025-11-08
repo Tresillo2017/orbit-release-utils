@@ -8,18 +8,18 @@ const templateMetadata = `
 <component type="desktop-application">
     <metadata_license>MIT</metadata_license>
     <project_license>MPL-2.0</project_license>
-    <id>app.zen_browser.zen</id>
-    <name>Zen</name>
+    <id>app.orbit_browser.orbit</id>
+    <name>Orbit</name>
     <summary>Stay focused, browse faster</summary>
-    <developer id="app.zen_browser.zen">
-       <name>Zen Team</name>
+    <developer id="app.orbit_browser.orbit">
+       <name>SafeCircle</name>
     </developer>
     <replaces>
-      <id>io.github.zen_browser.zen</id>
+      <id>io.github.safecircleia.orbit</id>
     </replaces>
 
     <description>
-        <p>Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
+        <p>Orbit is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.</p>
         <ul>
             <li>Split view</li>
             <li>Web sidebar</li>
@@ -30,15 +30,14 @@ const templateMetadata = `
         </ul>
     </description>
 
-    <url type="homepage">https://zen-browser.app</url>
-    <url type="bugtracker">https://github.com/zen-browser/desktop/issues</url>
-    <url type="help">https://docs.zen-browser.app</url>
-    <url type="faq">https://docs.zen-browser.app/faq</url>
-    <url type="donation">https://www.patreon.com/zen_browser</url>
-    <url type="translate">https://crowdin.com/project/zen-browser</url>
-    <url type="contact">https://discord.gg/zen-browser</url>
-    <url type="vcs-browser">https://github.com/zen-browser</url>
-    <url type="contribute">https://docs.zen-browser.app/contribute/CONTRIBUTING</url>
+    <url type="homepage">https://safecircle.tech/orbit</url>
+    <url type="bugtracker">https://github.com/safecircleia/orbit/issues</url>
+    <url type="help">https://safecircle.tech/contact</url>
+    <url type="faq">https://safecircle.tech/orbit</url>
+    <url type="donation">https://safecircle.tech/donate</url>
+    <url type="contact">https://safecircle.tech/contact</url>
+    <url type="vcs-browser">https://github.com/safecircleia</url>
+    <url type="contribute">https://github.com/safecircleia/CONTRIBUTING</url>
 
     <branding>
         <color type="primary" scheme_preference="light">#d9d9d9</color>
@@ -58,7 +57,7 @@ const templateMetadata = `
     </screenshots>
 
     <content_rating type="oars-1.1" />
-    <launchable type="desktop-id">app.zen_browser.zen.desktop</launchable>
+    <launchable type="desktop-id">app.orbit_browser.orbit.desktop</launchable>
 
     <requires>
         <display_length compare="ge">450</display_length>
